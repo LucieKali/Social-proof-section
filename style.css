@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: league Spartan;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(/images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    background-image: url(/images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-top: 6%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: 700;
+    width: 50%;
+    height: 50%;
+    padding: 0 6% 0% 12%;
+
+}
+
+.text h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 57px;
+    padding: 10% 0% 5% 0%;
+    font-weight: 700;
+    letter-spacing: -2px;
+    line-height: 46px;
+}
+
+.text p {
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
+.stars {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 4% 0%;
+}
+
+.stars-bare {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    background-size: 100%;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 8px;
+    padding: 4% 5% 4% 3%;
+}
+
+.five-stars {
+    padding-left: 4%;
+    ;
+    min-width: 38%
+}
+
+.rated {
+    list-style-type: none;
+    padding-left: 3%;
+}
+
+.five-stars img {
+    padding-right: 3%;
+}
+
+
+
+.reviews {
+    margin: 0 36% 15px 2%;
+}
+
+.report-guru {
+    margin: 0 29% 15px 8%;
+}
+
+.best-tech {
+    margin: 0 23% 15px 14%;
+}
+
+.container-2 {
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0% 11% 0% 11%;
+    flex-grow: 1;
+
+}
+
+.buyer {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    background-color: hsl(300, 43%, 22%);
+    background-size: 100%;
+    border-radius: 8px;
+    padding: 10% 9%;
+}
+
+.buyer img {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.buyer h2 {
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+}
+
+.buyer h3 {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+    letter-spacing: 1px;
+    padding-bottom: 5%;
+}
+
+.buyer p {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    line-height: 22px;
+    letter-spacing: 0.5;
+    flex: 1 1 0;
+}
+
+.buyer-infos {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8%;
+}
+
+.buyer-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 8%;
+}
+
+.buyer-1 {
+    margin-top: 2%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 2.5%;
+    width: 33.33%;
+    height: 100%
+}
+
+.buyer-2 {
+    margin-top: 3%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 33.33%;
+    height: 100%
+}
+
+.buyer-3 {
+    margin-top: 4%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-left: 2.5%;
+    width: 33.33%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .container-1 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: 25%;
+
+    }
+
+    .text {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 10% 5% 5% 5%;
+        text-align: center;
+    }
+
+    .text h1 {
+        font-size: 40px;
+        line-height: 32px;
+        padding-bottom: 7%;
+    }
+
+    .text p {
+        letter-spacing: -0.5px;
+        font-size: 19px;
+        ;
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: column;
+        padding: 0% 5% 0% 5%;
+        height: 75%;
+    }
+
+    .stars {
+        display: flex;
+        width: 100%;
+    }
+
+    .stars-bare {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .five-stars {
+        padding: none;
+        width: 50%;
+        padding-bottom: 4%;
+    }
+
+    .reviews {
+        margin: 0 6% 15px 6%;
+    }
+
+    .report-guru {
+        margin: 0 6% 15px 6%;
+    }
+
+    .best-tech {
+        margin: 0 6% 15px 6%;
+    }
+
+    .buyer-1 {
+        margin: 0;
+        margin-top: 4%;
+        width: 100%;
+    }
+
+    .buyer-2 {
+        margin: 0;
+        margin-top: 4%;
+        width: 100%;
+    }
+
+    .buyer-3 {
+        margin: 0;
+        margin-top: 4%;
+        margin-bottom: 47%;
+        width: 100%;
+    }
+}
